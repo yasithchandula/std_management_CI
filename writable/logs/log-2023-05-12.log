@@ -1,0 +1,286 @@
+CRITICAL - 2023-05-12 06:31:58 --> Config\Security::$csrfProtection is set to 'cookie'. Same-site attackers may bypass the CSRF protection. Please set it to 'session'.
+in APPPATH\ThirdParty\vendor\codeigniter4\shield\src\Authentication\Authenticators\Session.php on line 96.
+ 1 APPPATH\ThirdParty\vendor\codeigniter4\shield\src\Authentication\Authenticators\Session.php(84): CodeIgniter\Shield\Authentication\Authenticators\Session->checkSecurityConfig()
+ 2 APPPATH\ThirdParty\vendor\codeigniter4\shield\src\Authentication\Authentication.php(58): CodeIgniter\Shield\Authentication\Authenticators\Session->__construct(Object(CodeIgniter\Shield\Models\UserModel))
+ 3 APPPATH\ThirdParty\vendor\codeigniter4\shield\src\Auth.php(161): CodeIgniter\Shield\Authentication\Authentication->factory('session')
+ 4 APPPATH\Controllers\LoginController.php(31): CodeIgniter\Shield\Auth->__call('attempt', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->login()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+ERROR - 2023-05-12 06:34:11 --> mysqli_sql_exception: Table 'crud.users' doesn't exist in C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\app\ThirdParty\vendor\codeigniter4\shield\src\Models\UserModel.php(225): CodeIgniter\BaseModel->first()
+#7 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\app\ThirdParty\vendor\codeigniter4\shield\src\Authentication\Authenticators\Session.php(327): CodeIgniter\Shield\Models\UserModel->findByCredentials(Array)
+#8 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\app\ThirdParty\vendor\codeigniter4\shield\src\Authentication\Authenticators\Session.php(130): CodeIgniter\Shield\Authentication\Authenticators\Session->check(Array)
+#9 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\app\ThirdParty\vendor\codeigniter4\shield\src\Auth.php(164): CodeIgniter\Shield\Authentication\Authenticators\Session->attempt(Array)
+#10 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\app\Controllers\LoginController.php(31): CodeIgniter\Shield\Auth->__call('attempt', Array)
+#11 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(934): App\Controllers\LoginController->login()
+#12 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#13 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#15 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\...')
+#16 {main}
+CRITICAL - 2023-05-12 06:34:11 --> Table 'crud.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `users`
+WHERE LOWER(`users`.`username`) = \'kamal\'
+AND `users`.`deleted_at` IS NULL
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+WHERE LOWER(`users`.`username`) = \'kamal\'
+AND `users`.`deleted_at` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+WHERE LOWER(`users`.`username`) = \'kamal\'
+AND `users`.`deleted_at` IS NULL
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE LOWER(`users`.`username`) = :LOWER(`users`.`username`):
+AND `users`.`deleted_at` IS NULL
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\ThirdParty\vendor\codeigniter4\shield\src\Models\UserModel.php(225): CodeIgniter\BaseModel->first()
+ 8 APPPATH\ThirdParty\vendor\codeigniter4\shield\src\Authentication\Authenticators\Session.php(327): CodeIgniter\Shield\Models\UserModel->findByCredentials([...])
+ 9 APPPATH\ThirdParty\vendor\codeigniter4\shield\src\Authentication\Authenticators\Session.php(130): CodeIgniter\Shield\Authentication\Authenticators\Session->check([...])
+10 APPPATH\ThirdParty\vendor\codeigniter4\shield\src\Auth.php(164): CodeIgniter\Shield\Authentication\Authenticators\Session->attempt([...])
+11 APPPATH\Controllers\LoginController.php(31): CodeIgniter\Shield\Auth->__call('attempt', [...])
+12 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->login()
+13 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+14 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-12 07:13:25 --> Object of class CodeIgniter\Session\Session could not be converted to string
+in APPPATH\Controllers\LoginController.php on line 39.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-12 10:32:43 --> Undefined array key "password"
+in APPPATH\Controllers\LoginController.php on line 36.
+ 1 APPPATH\Controllers\LoginController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\app\\Controllers\\LoginController.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-12 10:38:43 --> Undefined array key "password"
+in APPPATH\Controllers\LoginController.php on line 36.
+ 1 APPPATH\Controllers\LoginController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\app\\Controllers\\LoginController.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-12 10:38:50 --> Undefined array key "password"
+in APPPATH\Controllers\LoginController.php on line 36.
+ 1 APPPATH\Controllers\LoginController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\app\\Controllers\\LoginController.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-12 10:40:48 --> Undefined array key "password"
+in APPPATH\Controllers\LoginController.php on line 36.
+ 1 APPPATH\Controllers\LoginController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\app\\Controllers\\LoginController.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-12 10:41:52 --> Undefined array key "password"
+in APPPATH\Controllers\LoginController.php on line 36.
+ 1 APPPATH\Controllers\LoginController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\app\\Controllers\\LoginController.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-12 10:44:46 --> Undefined array key "password"
+in APPPATH\Controllers\LoginController.php on line 36.
+ 1 APPPATH\Controllers\LoginController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\app\\Controllers\\LoginController.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-12 10:44:49 --> Undefined array key "password"
+in APPPATH\Controllers\LoginController.php on line 36.
+ 1 APPPATH\Controllers\LoginController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\app\\Controllers\\LoginController.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-12 10:46:43 --> Undefined array key "password"
+in APPPATH\Controllers\LoginController.php on line 36.
+ 1 APPPATH\Controllers\LoginController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\app\\Controllers\\LoginController.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-12 10:47:28 --> Undefined array key "password"
+in APPPATH\Controllers\LoginController.php on line 36.
+ 1 APPPATH\Controllers\LoginController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\app\\Controllers\\LoginController.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-12 10:48:40 --> Undefined array key "password"
+in APPPATH\Controllers\LoginController.php on line 35.
+ 1 APPPATH\Controllers\LoginController.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\app\\Controllers\\LoginController.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-12 10:49:27 --> Undefined array key "password"
+in APPPATH\Controllers\LoginController.php on line 35.
+ 1 APPPATH\Controllers\LoginController.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\app\\Controllers\\LoginController.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-12 10:50:24 --> Undefined array key "password"
+in APPPATH\Controllers\LoginController.php on line 35.
+ 1 APPPATH\Controllers\LoginController.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\app\\Controllers\\LoginController.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-12 10:51:19 --> Undefined array key "password"
+in APPPATH\Controllers\LoginController.php on line 35.
+ 1 APPPATH\Controllers\LoginController.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\app\\Controllers\\LoginController.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-12 10:52:04 --> Undefined array key "password"
+in APPPATH\Controllers\LoginController.php on line 35.
+ 1 APPPATH\Controllers\LoginController.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\app\\Controllers\\LoginController.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-12 10:54:02 --> key must be a string when using hmac
+in APPPATH\ThirdParty\vendor\firebase\php-jwt\src\JWT.php on line 233.
+ 1 APPPATH\ThirdParty\vendor\firebase\php-jwt\src\JWT.php(203): Firebase\JWT\JWT::sign('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY4Mzg4ODg0MiwiZXhwIjoxNjgzODkyNDQyLCJlbWFpbCI6ImthbWFsIn0', false, 'HS256')
+ 2 APPPATH\Controllers\LoginController.php(53): Firebase\JWT\JWT::encode([...], false, 'HS256')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->login()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-12 11:03:15 --> key must be a string when using hmac
+in APPPATH\ThirdParty\vendor\firebase\php-jwt\src\JWT.php on line 233.
+ 1 APPPATH\ThirdParty\vendor\firebase\php-jwt\src\JWT.php(203): Firebase\JWT\JWT::sign('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY4Mzg4OTM5NSwiZXhwIjoxNjgzODkyOTk1LCJlbWFpbCI6ImthbWFsIn0', false, 'HS256')
+ 2 APPPATH\Controllers\LoginController.php(54): Firebase\JWT\JWT::encode([...], false, 'HS256')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->login()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-12 11:05:23 --> key must be a string when using hmac
+in APPPATH\ThirdParty\vendor\firebase\php-jwt\src\JWT.php on line 233.
+ 1 APPPATH\ThirdParty\vendor\firebase\php-jwt\src\JWT.php(203): Firebase\JWT\JWT::sign('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY4Mzg4OTUyMywiZXhwIjoxNjgzODkzMTIzLCJlbWFpbCI6ImthbWFsIn0', false, 'HS256')
+ 2 APPPATH\Controllers\LoginController.php(54): Firebase\JWT\JWT::encode([...], false, 'HS256')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->login()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-12 11:09:43 --> key must be a string when using hmac
+in APPPATH\ThirdParty\vendor\firebase\php-jwt\src\JWT.php on line 233.
+ 1 APPPATH\ThirdParty\vendor\firebase\php-jwt\src\JWT.php(203): Firebase\JWT\JWT::sign('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY4Mzg4OTc4MywiZXhwIjoxNjgzODkzMzgzLCJlbWFpbCI6ImthbWFsIn0', false, 'HS256')
+ 2 APPPATH\Controllers\LoginController.php(54): Firebase\JWT\JWT::encode([...], false, 'HS256')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->login()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-12 11:11:36 --> key must be a string when using hmac
+in APPPATH\ThirdParty\vendor\firebase\php-jwt\src\JWT.php on line 233.
+ 1 APPPATH\ThirdParty\vendor\firebase\php-jwt\src\JWT.php(203): Firebase\JWT\JWT::sign('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY4Mzg4OTg5NiwiZXhwIjoxNjgzODkzNDk2LCJlbWFpbCI6ImthbWFsIn0', false, 'HS256')
+ 2 APPPATH\Controllers\LoginController.php(55): Firebase\JWT\JWT::encode([...], false, 'HS256')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->login()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-12 11:16:53 --> log_message(): Argument #2 ($message) must be of type string, null given, called in C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\app\Controllers\LoginController.php on line 42
+in SYSTEMPATH\Common.php on line 801.
+ 1 APPPATH\Controllers\LoginController.php(42): log_message('debug', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-12 11:18:15 --> Object of class App\Controllers\LoginController could not be converted to string
+in APPPATH\Controllers\LoginController.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+ALERT - 2023-05-12 11:20:02 --> Login SuccesfuleyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY4Mzg5MDQwMiwiZXhwIjoxNjgzODk0MDAyLCJlbWFpbCI6ImthbWFsIn0.-lf1BToDrI1JcUxuq-RdfFnNmfd0_TsS7a5ibifmaVs
+CRITICAL - 2023-05-12 11:27:53 --> key must be a string when using hmac
+in APPPATH\ThirdParty\vendor\firebase\php-jwt\src\JWT.php on line 233.
+ 1 APPPATH\ThirdParty\vendor\firebase\php-jwt\src\JWT.php(203): Firebase\JWT\JWT::sign('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY4Mzg5MDg3MywiZXhwIjoxNjgzODk0NDczLCJlbWFpbCI6ImthbWFsIn0', false, 'HS256')
+ 2 APPPATH\Controllers\LoginController.php(55): Firebase\JWT\JWT::encode([...], false, 'HS256')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->login()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-12 11:29:16 --> key must be a string when using hmac
+in APPPATH\ThirdParty\vendor\firebase\php-jwt\src\JWT.php on line 233.
+ 1 APPPATH\ThirdParty\vendor\firebase\php-jwt\src\JWT.php(203): Firebase\JWT\JWT::sign('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY4Mzg5MDk1NiwiZXhwIjoxNjgzODk0NTU2LCJlbWFpbCI6ImthbWFsIn0', false, 'HS256')
+ 2 APPPATH\Controllers\LoginController.php(55): Firebase\JWT\JWT::encode([...], false, 'HS256')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->login()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-12 11:46:11 --> log_message(): Argument #2 ($message) must be of type string, null given, called in C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\app\Controllers\LoginController.php on line 42
+in SYSTEMPATH\Common.php on line 801.
+ 1 APPPATH\Controllers\LoginController.php(42): log_message('debug', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-12 11:53:05 --> log_message(): Argument #2 ($message) must be of type string, null given, called in C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\app\Controllers\LoginController.php on line 42
+in SYSTEMPATH\Common.php on line 801.
+ 1 APPPATH\Controllers\LoginController.php(42): log_message('debug', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-12 11:54:18 --> log_message(): Argument #2 ($message) must be of type string, null given, called in C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\app\Controllers\LoginController.php on line 42
+in SYSTEMPATH\Common.php on line 801.
+ 1 APPPATH\Controllers\LoginController.php(42): log_message('debug', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')

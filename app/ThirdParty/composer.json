@@ -1,0 +1,17 @@
+{
+    "name": "thirdparty/libs",
+    "description": "thirdparty libs",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Yasith Chandula"
+        }
+    ],
+    "require": {
+        "twbs/bootstrap": "^5.2",
+        "firebase/php-jwt": "6.4",
+        "codeigniter4/shield": "^1.0@beta"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

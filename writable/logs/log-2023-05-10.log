@@ -1,0 +1,219 @@
+ERROR - 2023-05-10 04:03:24 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('127.0.0.1', 'root', Object(SensitiveParameterValue), 'crud', 3306, '', 0)
+#1 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\app\Controllers\studentController.php(10): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(934): App\Controllers\StudentController->index()
+#8 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#9 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\app\Controllers\studentController.php(10): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(934): App\Controllers\StudentController->index()
+#7 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#8 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\...')
+#11 {main}
+CRITICAL - 2023-05-10 04:03:24 --> Unable to connect to the database.
+Main connection [mysqli]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `student`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\studentController.php(10): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-10 04:14:05 --> Too few arguments to function App\Controllers\StudentController::edit(), 0 passed in C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\studentController.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-10 04:20:04 --> Too few arguments to function App\Controllers\StudentController::edit(), 0 passed in C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\studentController.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-10 04:20:04 --> Too few arguments to function App\Controllers\StudentController::edit(), 0 passed in C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\studentController.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-10 04:20:04 --> Too few arguments to function App\Controllers\StudentController::edit(), 0 passed in C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\studentController.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-10 04:20:05 --> Too few arguments to function App\Controllers\StudentController::edit(), 0 passed in C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\studentController.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-10 04:20:06 --> Too few arguments to function App\Controllers\StudentController::edit(), 0 passed in C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\studentController.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-10 04:25:12 --> Cannot use object of type App\Model\Student as array
+in APPPATH\Controllers\studentController.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->edit('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-10 06:28:47 --> CodeIgniter\Validation\Validation::withRequest(): Argument #1 ($request) must be of type CodeIgniter\HTTP\RequestInterface, null given, called in C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Controller.php on line 140
+in SYSTEMPATH\Validation\Validation.php on line 392.
+ 1 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->withRequest(null)
+ 2 APPPATH\Controllers\FormValidation.php(17): CodeIgniter\Controller->validate([...])
+ 3 APPPATH\Controllers\studentController.php(31): App\Controllers\FormValidation->formvalidation()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->store()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-10 06:36:18 --> Call to a member function validate() on array
+in APPPATH\Controllers\FormValidation.php on line 17.
+ 1 APPPATH\Controllers\studentController.php(40): App\Controllers\FormValidation->formvalidation([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->store()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-10 06:54:07 --> Undefined array key "student"
+in APPPATH\Controllers\studentController.php on line 39.
+ 1 APPPATH\Controllers\studentController.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "student"', 'C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\app\\Controllers\\studentController.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->store()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-10 06:59:44 --> Object of class App\Model\Student could not be converted to string
+in APPPATH\Controllers\studentController.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->store()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-10 07:03:57 --> Call to a member function validate() on array
+in APPPATH\Controllers\FormValidation.php on line 18.
+ 1 APPPATH\Controllers\studentController.php(42): App\Controllers\FormValidation->formvalidation([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->store()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-10 08:08:17 --> Trait "studentValidation" not found
+in APPPATH\Config\Validation.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-10 08:18:58 --> "reqired" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 320.
+ 1 SYSTEMPATH\Validation\Validation.php(320): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('reqired')
+ 2 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('firstName', 'firstName', 'asd', [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\studentController.php(53): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->store()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-10 08:20:42 --> "min_lenght" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 320.
+ 1 SYSTEMPATH\Validation\Validation.php(320): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('min_lenght')
+ 2 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('firstName', 'firstName', 'saddsa', [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\studentController.php(53): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->store()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-10 09:17:54 --> Invalid file: "student_add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('student_add.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('student_add', [], true)
+ 3 APPPATH\Controllers\studentController.php(60): view('student_add')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->store()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-10 09:21:18 --> Invalid file: "student.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('student.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('student', [], true)
+ 3 APPPATH\Controllers\studentController.php(60): view('student')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->store()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-10 09:21:25 --> Invalid file: "student.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('student.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('student', [], true)
+ 3 APPPATH\Controllers\studentController.php(60): view('student')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->store()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-10 09:26:47 --> Invalid file: "student_add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('student_add.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('student_add', [], true)
+ 3 APPPATH\Controllers\studentController.php(60): view('student_add')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->store()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-10 09:26:57 --> Invalid file: "student_add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('student_add.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('student_add', [], true)
+ 3 APPPATH\Controllers\studentController.php(60): view('student_add')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->store()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-10 09:32:53 --> The route for "http://localhost:8080/student_add" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost:8080/student_add')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\studentController.php(61): redirect('http://localhost:8080/student_add')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->store()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')

@@ -1,0 +1,1098 @@
+CRITICAL - 2023-05-09 06:57:39 --> Class "App\Model\Student" not found
+in APPPATH\Controllers\studentController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 06:58:08 --> Class "App\Model\Student" not found
+in APPPATH\Controllers\studentController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 07:02:00 --> Class "App\Model\Student" not found
+in APPPATH\Controllers\studentController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 07:02:01 --> Class "App\Model\Student" not found
+in APPPATH\Controllers\studentController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 07:02:01 --> Class "App\Model\Student" not found
+in APPPATH\Controllers\studentController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 07:02:01 --> Class "App\Model\Student" not found
+in APPPATH\Controllers\studentController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 07:07:04 --> Class "App\Model\Student" not found
+in APPPATH\Controllers\studentController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 07:07:19 --> Class "App\Model\Student" not found
+in APPPATH\Controllers\studentController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 07:07:59 --> Class "App\Model\Student" not found
+in APPPATH\Controllers\studentController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 07:09:03 --> Class "App\Model\Student" not found
+in APPPATH\Controllers\studentController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 07:09:04 --> Class "App\Model\Student" not found
+in APPPATH\Controllers\studentController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 07:09:21 --> Class "App\Model\Student" not found
+in APPPATH\Controllers\studentController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 07:10:54 --> Class "App\Model\Student" not found
+in APPPATH\Controllers\studentController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 07:12:22 --> Class "App\Model\Student" not found
+in APPPATH\Controllers\studentController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 07:15:25 --> Class "App\Model\Student" not found
+in APPPATH\Controllers\studentController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 07:15:25 --> Class "App\Model\Student" not found
+in APPPATH\Controllers\studentController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 07:15:26 --> Class "App\Model\Student" not found
+in APPPATH\Controllers\studentController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 07:15:49 --> Class "App\Model\Student" not found
+in APPPATH\Controllers\studentController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 07:15:49 --> Class "App\Model\Student" not found
+in APPPATH\Controllers\studentController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 07:15:49 --> Class "App\Model\Student" not found
+in APPPATH\Controllers\studentController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 07:16:12 --> Class "App\Model\Student" not found
+in APPPATH\Controllers\studentController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 07:16:13 --> Class "App\Model\Student" not found
+in APPPATH\Controllers\studentController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 07:16:13 --> Class "App\Model\Student" not found
+in APPPATH\Controllers\studentController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 07:18:01 --> Class "App\Model\Student" not found
+in APPPATH\Controllers\studentController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 07:18:01 --> Class "App\Model\Student" not found
+in APPPATH\Controllers\studentController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 07:18:01 --> Class "App\Model\Student" not found
+in APPPATH\Controllers\studentController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 07:18:01 --> Class "App\Model\Student" not found
+in APPPATH\Controllers\studentController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 07:21:20 --> Class "App\Model\Student" not found
+in APPPATH\Controllers\studentController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 07:21:21 --> Class "App\Model\Student" not found
+in APPPATH\Controllers\studentController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 07:21:21 --> Class "App\Model\Student" not found
+in APPPATH\Controllers\studentController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 07:21:49 --> Class "App\Model\Student" not found
+in APPPATH\Controllers\studentController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 07:31:11 --> Class "App\Model\Student" not found
+in APPPATH\Controllers\studentController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 07:32:25 --> Class "App\Model\Student" not found
+in APPPATH\Controllers\studentController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 07:32:48 --> Class "App\Model\student" not found
+in APPPATH\Controllers\studentController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 07:33:26 --> Class "App\Models\Student" not found
+in APPPATH\Controllers\studentController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 07:33:32 --> Class "App\Models\student" not found
+in APPPATH\Controllers\studentController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 07:36:46 --> Class "App\Model\Student" not found
+in APPPATH\Controllers\studentController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 07:38:14 --> Class "App\Model\Student" not found
+in APPPATH\Controllers\studentController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 07:38:16 --> Class "App\Model\Student" not found
+in APPPATH\Controllers\studentController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 07:38:16 --> Class "App\Model\Student" not found
+in APPPATH\Controllers\studentController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 07:38:44 --> Class "App\Model\Student" not found
+in APPPATH\Controllers\studentController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 07:38:44 --> Class "App\Model\Student" not found
+in APPPATH\Controllers\studentController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 07:39:25 --> Class "App\Model\Student" not found
+in APPPATH\Controllers\studentController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 07:40:08 --> Class "App\Model\Student" not found
+in APPPATH\Controllers\studentController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 07:44:55 --> Class "App\Models\Student" not found
+in APPPATH\Controllers\studentController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+ERROR - 2023-05-09 07:45:45 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\Postgre\Connection.php:75
+Stack trace:
+#0 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\app\Controllers\studentController.php(10): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(934): App\Controllers\StudentController->index()
+#7 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#8 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\...')
+#11 {main}
+CRITICAL - 2023-05-09 07:45:45 --> Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "student"', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\studentController.php(10): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+ERROR - 2023-05-09 07:50:50 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\Postgre\Connection.php:75
+Stack trace:
+#0 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\app\Controllers\studentController.php(10): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(934): App\Controllers\StudentController->index()
+#7 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#8 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\...')
+#11 {main}
+CRITICAL - 2023-05-09 07:50:50 --> Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "student"', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\studentController.php(10): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+ERROR - 2023-05-09 07:50:51 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\Postgre\Connection.php:75
+Stack trace:
+#0 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\app\Controllers\studentController.php(10): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(934): App\Controllers\StudentController->index()
+#7 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#8 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\...')
+#11 {main}
+CRITICAL - 2023-05-09 07:50:51 --> Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "student"', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\studentController.php(10): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+ERROR - 2023-05-09 07:50:51 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\Postgre\Connection.php:75
+Stack trace:
+#0 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\app\Controllers\studentController.php(10): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(934): App\Controllers\StudentController->index()
+#7 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#8 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\...')
+#11 {main}
+CRITICAL - 2023-05-09 07:50:51 --> Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "student"', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\studentController.php(10): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+ERROR - 2023-05-09 07:50:51 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\Postgre\Connection.php:75
+Stack trace:
+#0 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\app\Controllers\studentController.php(10): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(934): App\Controllers\StudentController->index()
+#7 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#8 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\...')
+#11 {main}
+CRITICAL - 2023-05-09 07:50:51 --> Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "student"', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\studentController.php(10): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+ERROR - 2023-05-09 07:50:52 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\Postgre\Connection.php:75
+Stack trace:
+#0 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\app\Controllers\studentController.php(10): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(934): App\Controllers\StudentController->index()
+#7 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#8 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\...')
+#11 {main}
+CRITICAL - 2023-05-09 07:50:52 --> Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "student"', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\studentController.php(10): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+ERROR - 2023-05-09 07:50:52 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\Postgre\Connection.php:75
+Stack trace:
+#0 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\app\Controllers\studentController.php(10): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(934): App\Controllers\StudentController->index()
+#7 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#8 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\...')
+#11 {main}
+CRITICAL - 2023-05-09 07:50:52 --> Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "student"', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\studentController.php(10): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+ERROR - 2023-05-09 07:51:52 --> Error connecting to the database: ErrorException: Uninitialized string offset 0 in C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\MySQLi\Connection.php:85
+Stack trace:
+#0 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\MySQLi\Connection.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Uninitialized s...', 'C:\\Users\\Yasit\\...', 85)
+#1 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\app\Controllers\studentController.php(10): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(934): App\Controllers\StudentController->index()
+#8 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#9 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\...')
+#12 {main}
+CRITICAL - 2023-05-09 07:51:52 --> Unable to connect to the database.
+Main connection [mysqli]: Uninitialized string offset 0
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `student`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\studentController.php(10): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 08:08:02 --> Undefined variable $student
+in APPPATH\Views\student\index.php on line 26.
+ 1 APPPATH\Views\student\index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $student', 'C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\app\\Views\\student\\index.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\app\\Views\\student\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('student/index', [], true)
+ 5 APPPATH\Controllers\studentController.php(12): view('student/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 08:09:41 --> Array callback must have exactly two elements
+in APPPATH\Views\student\index.php on line 28.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('student/index', [], true)
+ 4 APPPATH\Controllers\studentController.php(12): view('student/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 08:11:24 --> Array callback must have exactly two elements
+in APPPATH\Views\student\index.php on line 28.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('student/index', [], true)
+ 4 APPPATH\Controllers\studentController.php(12): view('student/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 08:12:07 --> Array callback must have exactly two elements
+in APPPATH\Views\student\index.php on line 28.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('student/index', [], true)
+ 4 APPPATH\Controllers\studentController.php(12): view('student/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 08:12:13 --> Array callback must have exactly two elements
+in APPPATH\Views\student\index.php on line 28.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('student/index', [], true)
+ 4 APPPATH\Controllers\studentController.php(12): view('student/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 08:12:34 --> Array callback must have exactly two elements
+in APPPATH\Views\student\index.php on line 29.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('student/index', [], true)
+ 4 APPPATH\Controllers\studentController.php(12): view('student/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 08:13:06 --> Array callback must have exactly two elements
+in APPPATH\Views\student\index.php on line 29.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('student/index', [], true)
+ 4 APPPATH\Controllers\studentController.php(12): view('student/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 08:13:08 --> Array callback must have exactly two elements
+in APPPATH\Views\student\index.php on line 29.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('student/index', [], true)
+ 4 APPPATH\Controllers\studentController.php(12): view('student/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 08:13:08 --> Array callback must have exactly two elements
+in APPPATH\Views\student\index.php on line 29.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('student/index', [], true)
+ 4 APPPATH\Controllers\studentController.php(12): view('student/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 08:13:23 --> Array callback must have exactly two elements
+in APPPATH\Views\student\index.php on line 29.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('student/index', [], true)
+ 4 APPPATH\Controllers\studentController.php(12): view('student/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 08:13:24 --> Array callback must have exactly two elements
+in APPPATH\Views\student\index.php on line 29.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('student/index', [], true)
+ 4 APPPATH\Controllers\studentController.php(12): view('student/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 08:13:24 --> Array callback must have exactly two elements
+in APPPATH\Views\student\index.php on line 29.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('student/index', [], true)
+ 4 APPPATH\Controllers\studentController.php(12): view('student/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 08:13:40 --> Array callback must have exactly two elements
+in APPPATH\Views\student\index.php on line 29.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('student/index', [], true)
+ 4 APPPATH\Controllers\studentController.php(12): view('student/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 08:14:31 --> Array callback must have exactly two elements
+in APPPATH\Views\student\index.php on line 28.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('student/index', [], true)
+ 4 APPPATH\Controllers\studentController.php(12): view('student/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 08:44:23 --> Array callback must have exactly two elements
+in APPPATH\Views\student\index.php on line 28.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('student/index', [], true)
+ 4 APPPATH\Controllers\studentController.php(12): view('student/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 08:48:34 --> Undefined array key "lasstName"
+in APPPATH\Views\student\index.php on line 29.
+ 1 APPPATH\Views\student\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "lasstName"', 'C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\app\\Views\\student\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\app\\Views\\student\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('student/index', [], true)
+ 5 APPPATH\Controllers\studentController.php(12): view('student/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 08:48:42 --> Undefined array key "contactNo"
+in APPPATH\Views\student\index.php on line 31.
+ 1 APPPATH\Views\student\index.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "contactNo"', 'C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\app\\Views\\student\\index.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\app\\Views\\student\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('student/index', [], true)
+ 5 APPPATH\Controllers\studentController.php(12): view('student/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 08:51:52 --> Array to string conversion
+in APPPATH\Views\student\index.php on line 27.
+ 1 APPPATH\Views\student\index.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\app\\Views\\student\\index.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\app\\Views\\student\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('student/index', [], true)
+ 5 APPPATH\Controllers\studentController.php(12): view('student/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 08:56:04 --> Undefined variable $Student
+in APPPATH\Views\student\index.php on line 26.
+ 1 APPPATH\Views\student\index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Student', 'C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\app\\Views\\student\\index.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\app\\Views\\student\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('student/index', [], true)
+ 5 APPPATH\Controllers\studentController.php(12): view('student/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 11:09:36 --> Invalid file: "student-add/create.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('student-add/create.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('student-add/create', [], true)
+ 3 APPPATH\Controllers\studentController.php(17): view('student-add/create')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 11:10:17 --> Invalid file: "student-add/create.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('student-add/create.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('student-add/create', [], true)
+ 3 APPPATH\Controllers\studentController.php(17): view('student-add/create')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 11:10:45 --> Invalid file: "student-add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('student-add.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('student-add', [], true)
+ 3 APPPATH\Controllers\studentController.php(17): view('student-add')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 11:10:53 --> Invalid file: "student-add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('student-add.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('student-add', [], true)
+ 3 APPPATH\Controllers\studentController.php(17): view('student-add')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 11:11:27 --> Invalid file: "create.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('create.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('create', [], true)
+ 3 APPPATH\Controllers\studentController.php(17): view('create')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 11:11:32 --> Invalid file: "create.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('create.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('create', [], true)
+ 3 APPPATH\Controllers\studentController.php(17): view('create')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 11:11:33 --> Invalid file: "create.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('create.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('create', [], true)
+ 3 APPPATH\Controllers\studentController.php(17): view('create')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2023-05-09 11:16:03 --> Invalid file: "student-add/create.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('student-add/create.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('student-add/create', [], true)
+ 3 APPPATH\Controllers\studentController.php(17): view('student-add/create')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+ERROR - 2023-05-09 11:37:31 --> mysqli_sql_exception: Column 'firstName' cannot be null in C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\app\Controllers\studentController.php(31): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(934): App\Controllers\StudentController->store()
+#10 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#11 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\...')
+#14 {main}
+CRITICAL - 2023-05-09 11:37:31 --> Column 'firstName' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `student` (`firstName`, `lastName`, `birthday`, `address`, `contactNumber`, `department`, `course`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `student` (`firstName`, `lastName`, `birthday`, `address`, `contactNumber`, `department`, `course`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `student` (`firstName`, `lastName`, `birthday`, `address`, `contactNumber`, `department`, `course`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `student` (`firstName`, `lastName`, `birthday`, `address`, `contactNumber`, `department`, `course`) VALUES (:firstName:, :lastName:, :birthday:, :address:, :contactNumber:, :department:, :course:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\studentController.php(31): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->store()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+ERROR - 2023-05-09 11:38:10 --> mysqli_sql_exception: Column 'firstName' cannot be null in C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\app\Controllers\studentController.php(31): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(934): App\Controllers\StudentController->store()
+#10 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#11 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\...')
+#14 {main}
+CRITICAL - 2023-05-09 11:38:10 --> Column 'firstName' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `student` (`firstName`, `lastName`, `birthday`, `address`, `contactNumber`, `department`, `course`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `student` (`firstName`, `lastName`, `birthday`, `address`, `contactNumber`, `department`, `course`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `student` (`firstName`, `lastName`, `birthday`, `address`, `contactNumber`, `department`, `course`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `student` (`firstName`, `lastName`, `birthday`, `address`, `contactNumber`, `department`, `course`) VALUES (:firstName:, :lastName:, :birthday:, :address:, :contactNumber:, :department:, :course:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\studentController.php(31): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->store()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+ERROR - 2023-05-09 11:38:56 --> mysqli_sql_exception: Column 'firstName' cannot be null in C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\app\Controllers\studentController.php(31): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(934): App\Controllers\StudentController->store()
+#10 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#11 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\...')
+#14 {main}
+CRITICAL - 2023-05-09 11:38:56 --> Column 'firstName' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `student` (`firstName`, `lastName`, `birthday`, `address`, `contactNumber`, `department`, `course`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `student` (`firstName`, `lastName`, `birthday`, `address`, `contactNumber`, `department`, `course`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `student` (`firstName`, `lastName`, `birthday`, `address`, `contactNumber`, `department`, `course`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `student` (`firstName`, `lastName`, `birthday`, `address`, `contactNumber`, `department`, `course`) VALUES (:firstName:, :lastName:, :birthday:, :address:, :contactNumber:, :department:, :course:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\studentController.php(31): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->store()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+ERROR - 2023-05-09 11:40:03 --> mysqli_sql_exception: Column 'firstName' cannot be null in C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\app\Controllers\studentController.php(32): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(934): App\Controllers\StudentController->store()
+#10 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#11 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\...')
+#14 {main}
+CRITICAL - 2023-05-09 11:40:03 --> Column 'firstName' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `student` (`firstName`, `lastName`, `birthday`, `address`, `contactNumber`, `department`, `course`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `student` (`firstName`, `lastName`, `birthday`, `address`, `contactNumber`, `department`, `course`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `student` (`firstName`, `lastName`, `birthday`, `address`, `contactNumber`, `department`, `course`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `student` (`firstName`, `lastName`, `birthday`, `address`, `contactNumber`, `department`, `course`) VALUES (:firstName:, :lastName:, :birthday:, :address:, :contactNumber:, :department:, :course:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\studentController.php(32): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->store()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+ERROR - 2023-05-09 11:42:37 --> mysqli_sql_exception: Column 'firstName' cannot be null in C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\app\Controllers\studentController.php(32): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(934): App\Controllers\StudentController->store()
+#10 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#11 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\...')
+#14 {main}
+CRITICAL - 2023-05-09 11:42:37 --> Column 'firstName' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `student` (`firstName`, `lastName`, `birthday`, `address`, `contactNumber`, `department`, `course`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `student` (`firstName`, `lastName`, `birthday`, `address`, `contactNumber`, `department`, `course`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `student` (`firstName`, `lastName`, `birthday`, `address`, `contactNumber`, `department`, `course`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `student` (`firstName`, `lastName`, `birthday`, `address`, `contactNumber`, `department`, `course`) VALUES (:firstName:, :lastName:, :birthday:, :address:, :contactNumber:, :department:, :course:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\studentController.php(32): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->store()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+ERROR - 2023-05-09 11:42:44 --> mysqli_sql_exception: Column 'firstName' cannot be null in C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\app\Controllers\studentController.php(32): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(934): App\Controllers\StudentController->store()
+#10 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#11 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\...')
+#14 {main}
+CRITICAL - 2023-05-09 11:42:44 --> Column 'firstName' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `student` (`firstName`, `lastName`, `birthday`, `address`, `contactNumber`, `department`, `course`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `student` (`firstName`, `lastName`, `birthday`, `address`, `contactNumber`, `department`, `course`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `student` (`firstName`, `lastName`, `birthday`, `address`, `contactNumber`, `department`, `course`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `student` (`firstName`, `lastName`, `birthday`, `address`, `contactNumber`, `department`, `course`) VALUES (:firstName:, :lastName:, :birthday:, :address:, :contactNumber:, :department:, :course:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\studentController.php(32): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->store()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+ERROR - 2023-05-09 11:50:14 --> mysqli_sql_exception: Column 'lastName' cannot be null in C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\app\Controllers\studentController.php(32): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(934): App\Controllers\StudentController->store()
+#10 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#11 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\...')
+#14 {main}
+CRITICAL - 2023-05-09 11:50:14 --> Column 'lastName' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `student` (`firstName`, `lastName`, `birthday`, `address`, `contactNumber`, `department`, `course`) VALUES (\'sdas\', NULL, \'2023-05-17\', \'sdfs\', NULL, \'asda\', \'asdsad\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `student` (`firstName`, `lastName`, `birthday`, `address`, `contactNumber`, `department`, `course`) VALUES (\'sdas\', NULL, \'2023-05-17\', \'sdfs\', NULL, \'asda\', \'asdsad\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `student` (`firstName`, `lastName`, `birthday`, `address`, `contactNumber`, `department`, `course`) VALUES (\'sdas\', NULL, \'2023-05-17\', \'sdfs\', NULL, \'asda\', \'asdsad\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `student` (`firstName`, `lastName`, `birthday`, `address`, `contactNumber`, `department`, `course`) VALUES (:firstName:, :lastName:, :birthday:, :address:, :contactNumber:, :department:, :course:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\studentController.php(32): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->store()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+ERROR - 2023-05-09 11:50:47 --> mysqli_sql_exception: Column 'contactNumber' cannot be null in C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\app\Controllers\studentController.php(32): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(934): App\Controllers\StudentController->store()
+#10 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#11 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\Yasit\Desktop\Bhasha\codeigniter4-framework-5d3d4b2\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\...')
+#14 {main}
+CRITICAL - 2023-05-09 11:50:47 --> Column 'contactNumber' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `student` (`firstName`, `lastName`, `birthday`, `address`, `contactNumber`, `department`, `course`) VALUES (\'sdas\', \'sdsd\', \'2023-05-01\', \'sdfs\', NULL, \'asda\', \'asdsad\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `student` (`firstName`, `lastName`, `birthday`, `address`, `contactNumber`, `department`, `course`) VALUES (\'sdas\', \'sdsd\', \'2023-05-01\', \'sdfs\', NULL, \'asda\', \'asdsad\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `student` (`firstName`, `lastName`, `birthday`, `address`, `contactNumber`, `department`, `course`) VALUES (\'sdas\', \'sdsd\', \'2023-05-01\', \'sdfs\', NULL, \'asda\', \'asdsad\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `student` (`firstName`, `lastName`, `birthday`, `address`, `contactNumber`, `department`, `course`) VALUES (:firstName:, :lastName:, :birthday:, :address:, :contactNumber:, :department:, :course:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\studentController.php(32): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentController->store()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Yasit\\Desktop\\Bhasha\\codeigniter4-framework-5d3d4b2\\public\\index.php')
